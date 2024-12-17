@@ -1,0 +1,44 @@
+# How to Add Additional Drives to a Virtual Machine
+
+## objective 
+
+When you create a virtual machine, a default virtual hard disk is added. You can add another hard disk if you run out of disk space.
+
+##Prerequisites:
+
+A virtual machine (VM) running on VMware, VirtualBox, or Hyper-V.
+
+Administrative access to the VM.
+
+## Procedure ;
+
+###Step 1 : Prepare the virtual machine for adding a new drive :
+
+Power off the virtual machine to avoid any data corruption while adding hardware.
+
+ ### Step 2 : Access the VM hypervisor management interface :
+
+open VMWare vSphere and the click virtual box and select Hyper -V.
+
+### Step 3 : Add a new hard drive :
+
+find the option to add a new hard drive under the "Storage".
+
+
+after choose a new virtual disk and then disk size and choose the type of disk.
+
+### Step 4 : Add the second drive :
+
+Repeat the above step to add the second drive. Ensure it is of the same size or as needed for your use case.
+
+### Step 5 : power on the VM :
+
+After adding the drives, power on the VM .
+
+### Step 6 : Configure the drives inside the VM
+
+for Linux VM open a terminal and run lsblk and use fdisk to partition the disks to format them .
+
+for Windows VM open disk management and drives should appear as unallocated space .
+
+Then right click on the unallocated space and choose simple volume and create partitions and to format them.
