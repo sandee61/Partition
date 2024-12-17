@@ -1,0 +1,41 @@
+###How to Partition an Empty Drive into 3 Partitions and Format Them with NTFS on Windows
+
+# Objective :
+
+#I can see this vedio from youtube is very inform,ative and knowledgeable for me.
+
+https://youtu.be/XmpFXe3Opws
+
+https://youtu.be/Ez-5dBl3opc
+
+# Prerequisites:
+
+  A Windows-based virtual machine or physical system.
+## Procedure :
+
+### Step 1 : Ensure the new disk is attached :
+
+ ensure the VM is powered on and the new disk is attached.
+
+### Step 2 : Open Disk Management:
+
+Press Win + X and select Disk Management and select unallocated .
+
+### Step 3 : Create 3 partitions on the unallocated disk .
+
+Right-click on the unallocated space and select New Simple Volume .
+
+Specify the size of the first partition and choose NTFS , assign a drive letter and complete whole process.
+
+Afterthat, the first partition will be created and formatted.
+
+Repeat these for rest of all .
+
+### Step 4 : Format the partitions as NTFS ;
+
+During the creation of each partition, ensure you choose NTFS as the file system format.
+
+### Step 5 : Verify the partitions
+
+After creating all three partitions, ensure they appear in the Disk Management window and checking the newly created devices. 
+
