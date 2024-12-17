@@ -1,4 +1,11 @@
 # How to Add Additional Drives to a Virtual Machine
+this vedio is very informative and knowledgeable for me 
+
+https://youtu.be/Ez-5dBl3opc
+https://youtu.be/XmpFXe3Opws
+
+
+
 
 ## objective 
 
@@ -37,7 +44,6 @@ After adding the drives, power on the VM .
 
 ### Step 6 : Configure the drives inside the VM
 
-for Linux VM open a terminal and run lsblk and use fdisk to partition the disks to format them .
 
 for Windows VM open disk management and drives should appear as unallocated space .
 
